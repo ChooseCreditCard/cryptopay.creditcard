@@ -33,7 +33,7 @@
 
   <link rel="stylesheet" href="./styles.css" />
 </head>
-<body class="page page-dark bg-slate-950 text-slate-100">
+<body class="bg-slate-950 text-slate-100">
   <header class="site-header">
     <div class="nav-inner max-w-6xl">
       <a href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=header_brand" class="brand">
@@ -43,7 +43,7 @@
           <div class="brand-subtitle">Crypto Credit-Card Payments Explained</div>
         </div>
       </a>
-      <nav class="main-nav">
+      <nav class="nav-links">
         <a href="#overview">Overview</a>
         <a href="#mechanics">How It Works</a>
         <a href="#compare">Compare</a>
@@ -51,61 +51,61 @@
     </div>
   </header>
 
-  <main class="site-main">
+  <main class="cc-page">
     <!-- Breadcrumb -->
-    <nav class="breadcrumb">
+    <div class="cc-breadcrumb">
       <a href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
-      <span>›</span>
-      <span>CryptoPay Credit Cards</span>
-    </nav>
+      &nbsp;›&nbsp;
+      CryptoPay Credit Cards
+    </div>
 
     <!-- Hero -->
     <section class="hero">
       <div class="hero-content">
         <h1>How Crypto Credit-Card Payments Actually Work</h1>
-        <p>Crypto credit cards promise “spend your coins anywhere”. Here’s what really happens when you tap at the terminal — from conversion and spreads to rewards and tax questions.</p>
-        <a class="btn btn-primary" href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+        <p class="hero-lead">Crypto credit cards promise “spend your coins anywhere”. Here’s what really happens when you tap at the terminal — from conversion and spreads to rewards and tax questions.</p>
+        <a class="cta" href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=hero_cta">
           Compare crypto-friendly credit cards
         </a>
       </div>
     </section>
 
     <!-- Content sections -->
-    <section id="overview" class="content-section">
+    <section id="overview" class="section">
       <h2>What is a Crypto Credit Card?</h2>
       <p>A crypto credit card looks and behaves like a normal Visa, Mastercard or similar, but is connected to a crypto wallet or exchange account. At the point of sale, your crypto is converted to fiat currency, which is used to settle the transaction with the card network.</p>
       <p>Most products are not truly “on-chain at checkout”. Instead, the issuer or partner exchange sells a small amount of your crypto in real time or in batched lots, then uses fiat rails for settlement.</p>
     </section>
 
-    <section id="mechanics" class="content-section">
+    <section id="mechanics" class="section">
       <h2>How CryptoPay Transactions Flow</h2>
       <p>When you tap or insert the card, the terminal sends a standard authorization request. Behind the scenes, the issuer or partner platform checks your crypto balance, reserves funds, converts to fiat and approves or declines the transaction.</p>
       <p>Conversion may use a spot-rate at the time of purchase, plus a spread and possible extra fees. Some products convert proactively (preload), while others convert “just in time” for each transaction.</p>
     </section>
 
-    <section class="content-section">
+    <section class="section">
       <h2>Fees, Spreads and Hidden Costs</h2>
       <p>Crypto cards can include exchange spreads, FX margins, network fees and issuer fees. Many marketing pages highlight rewards but downplay spreads on conversion, which can easily exceed 2–3% depending on liquidity and volatility.</p>
       <p>Always read the fee schedule: look for explicit crypto-conversion fees, FX fees for foreign transactions, ATM withdrawal fees and any additional service charges from the linked exchange.</p>
     </section>
 
-    <section class="content-section">
+    <section class="section">
       <h2>Rewards, Cashbacks and Token Incentives</h2>
       <p>Rewards may be paid as cash, points or native platform tokens. Some issuers offer higher rates when you stake a token or hold a minimum balance, but this concentrates risk in a single ecosystem.</p>
       <p>Compare rewards after fees: a 3% token reward is less attractive if you are losing 2–3% on spreads and FX every time you use the card.</p>
     </section>
 
-    <section class="content-section">
+    <section class="section">
       <h2>Risk, Volatility and Tax Considerations</h2>
       <p>Every time you convert crypto to fiat you may trigger a taxable event in your jurisdiction. That means daily spending could generate a large number of small taxable disposals.</p>
       <p>Volatility can also work against you. If the market moves sharply between loading and spending, the real purchasing power of your holdings changes — regardless of the headline reward rate.</p>
     </section>
 
     <!-- Comparison block -->
-    <section id="compare" class="content-section comparison-section">
+    <section id="compare" class="section">
       <h2>Compare Crypto Credit-Card Features</h2>
-      <div class="table-wrapper">
-        <table class="comparison-table">
+      <div class="table-wrap">
+        <table class="table">
           <thead>
             <tr>
               <th>Feature</th>
@@ -142,50 +142,45 @@
           </tbody>
         </table>
       </div>
-      <p class="comparison-cta">
+      <p class="small">
         For live product-by-product comparisons, visit
         <a href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=comparison_section">Choose.Creditcard</a>.
       </p>
     </section>
 
     <!-- Cluster links -->
-    <section class="content-section cluster-section">
+    <section class="section">
       <h2>Explore Related Payment Technologies</h2>
-      <ul class="cluster-links">
-        <li>
-          <a href="https://bitcoinpay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_bitcoinpay">
-            BitcoinPay.Creditcard – Bitcoin card payments
-          </a>
-        </li>
-        <li>
-          <a href="https://btcpay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_btcpay">
-            BTCPay.Creditcard – Merchant BTC processing
-          </a>
-        </li>
-        <li>
-          <a href="https://tokens.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_tokens">
-            Tokens.Creditcard – Tokenized rewards &amp; benefits
-          </a>
-        </li>
-        <li>
-          <a href="https://defipay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_defipay">
-            DefiPay.Creditcard – DeFi-linked card products
-          </a>
-        </li>
-        <li>
-          <a href="https://virtualpay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_virtualpay">
-            VirtualPay.Creditcard – Virtual cards &amp; wallets
-          </a>
-        </li>
-      </ul>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://bitcoinpay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_bitcoinpay">
+          <h3>BitcoinPay.Creditcard</h3>
+          <p>Bitcoin card payments and settlement patterns.</p>
+        </a>
+        <a class="cluster-card" href="https://btcpay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_btcpay">
+          <h3>BTCPay.Creditcard</h3>
+          <p>Merchant-side BTC processing and gateways.</p>
+        </a>
+        <a class="cluster-card" href="https://tokens.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_tokens">
+          <h3>Tokens.Creditcard</h3>
+          <p>Tokenized rewards, governance tokens and incentives.</p>
+        </a>
+        <a class="cluster-card" href="https://defipay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_defipay">
+          <h3>DefiPay.Creditcard</h3>
+          <p>DeFi-linked card products and yield routing.</p>
+        </a>
+        <a class="cluster-card" href="https://virtualpay.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=cluster_virtualpay">
+          <h3>VirtualPay.Creditcard</h3>
+          <p>Virtual cards and wallet-based payment flows.</p>
+        </a>
+      </div>
     </section>
 
     <!-- Collection section -->
-    <section class="content-section collection-section">
+    <section class="section">
       <h2>Part of The CreditCard Collection</h2>
-      <p>CryptoPay.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single payment concept in clear language and then connects you to independent comparison tools.</p>
-      <p>We do not issue cards. We summarize documentation, highlight trade-offs and link to external providers where you can read the full terms yourself.</p>
-      <p>
+      <p class="small">CryptoPay.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single payment concept in clear language and then connects you to independent comparison tools.</p>
+      <p class="small">We do not issue cards. We summarize documentation, highlight trade-offs and link to external providers where you can read the full terms yourself.</p>
+      <p class="small">
         To compare real products across APR, rewards, fees and travel features, go to
         <a href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=collection_section">
           Choose.Creditcard
@@ -194,10 +189,10 @@
     </section>
 
     <!-- Bottom CTA -->
-    <section class="content-section bottom-cta">
+    <section class="section">
       <h2>Ready to Compare Crypto-Friendly Cards?</h2>
-      <p>Use CryptoPay.Creditcard to understand the mechanics — then head over to the main comparison hub to see which cards currently support crypto, stablecoins or on-ramp/off-ramp integrations.</p>
-      <a class="btn btn-primary" href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+      <p class="small">Use CryptoPay.Creditcard to understand the mechanics — then head over to the main comparison hub to see which cards currently support crypto, stablecoins or on-ramp/off-ramp integrations.</p>
+      <a class="cta" href="https://choose.creditcard/?utm_source=cryptopay.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
         Go to Choose.Creditcard
       </a>
     </section>
